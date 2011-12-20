@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E8E7E7C132A14BD007C0104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8E7E7B132A14BD007C0104 /* UIKit.framework */; };
+		6E8E7E7E132A14BD007C0104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8E7E7D132A14BD007C0104 /* Foundation.framework */; };
+		6E8E7E80132A14BD007C0104 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8E7E7F132A14BD007C0104 /* CoreGraphics.framework */; };
+		6E8E7E86132A14BD007C0104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E7E84132A14BD007C0104 /* InfoPlist.strings */; };
+		6E8E7E89132A14BD007C0104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E7E88132A14BD007C0104 /* main.m */; };
+		6E8E7E8C132A14BD007C0104 /* VSPickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E7E8B132A14BD007C0104 /* VSPickerAppDelegate.m */; };
+		6E8E7E8F132A14BE007C0104 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E7E8D132A14BD007C0104 /* MainWindow.xib */; };
+		6E8E7E92132A14BE007C0104 /* VSPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E7E91132A14BE007C0104 /* VSPickerViewController.m */; };
+		6E8E7E95132A14BE007C0104 /* VSPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E7E93132A14BE007C0104 /* VSPickerViewController.xib */; };
+		6EA80037132A1A18002BF036 /* VSPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA80036132A1A17002BF036 /* VSPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E8E7E77132A14BD007C0104 /* VSPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8E7E7B132A14BD007C0104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E8E7E7D132A14BD007C0104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E8E7E7F132A14BD007C0104 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E8E7E83132A14BD007C0104 /* VSPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSPicker-Info.plist"; sourceTree = "<group>"; };
+		6E8E7E85132A14BD007C0104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E8E7E87132A14BD007C0104 /* VSPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VSPicker-Prefix.pch"; sourceTree = "<group>"; };
+		6E8E7E88132A14BD007C0104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E8E7E8A132A14BD007C0104 /* VSPickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSPickerAppDelegate.h; sourceTree = "<group>"; };
+		6E8E7E8B132A14BD007C0104 /* VSPickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSPickerAppDelegate.m; sourceTree = "<group>"; };
+		6E8E7E8E132A14BE007C0104 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6E8E7E90132A14BE007C0104 /* VSPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSPickerViewController.h; sourceTree = "<group>"; };
+		6E8E7E91132A14BE007C0104 /* VSPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSPickerViewController.m; sourceTree = "<group>"; };
+		6E8E7E94132A14BE007C0104 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VSPickerViewController.xib; sourceTree = "<group>"; };
+		6EA80035132A1A17002BF036 /* VSPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSPickerView.h; sourceTree = "<group>"; };
+		6EA80036132A1A17002BF036 /* VSPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E8E7E74132A14BD007C0104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8E7E7C132A14BD007C0104 /* UIKit.framework in Frameworks */,
+				6E8E7E7E132A14BD007C0104 /* Foundation.framework in Frameworks */,
+				6E8E7E80132A14BD007C0104 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E8E7E6C132A14BD007C0104 = {
+			isa = PBXGroup;
+			children = (
+				6E8E7E81132A14BD007C0104 /* VSPicker */,
+				6E8E7E7A132A14BD007C0104 /* Frameworks */,
+				6E8E7E78132A14BD007C0104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E8E7E78132A14BD007C0104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E7E77132A14BD007C0104 /* VSPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8E7E7A132A14BD007C0104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E7E7B132A14BD007C0104 /* UIKit.framework */,
+				6E8E7E7D132A14BD007C0104 /* Foundation.framework */,
+				6E8E7E7F132A14BD007C0104 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E8E7E81132A14BD007C0104 /* VSPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6EA80035132A1A17002BF036 /* VSPickerView.h */,
+				6EA80036132A1A17002BF036 /* VSPickerView.m */,
+				6E8E7E90132A14BE007C0104 /* VSPickerViewController.h */,
+				6E8E7E91132A14BE007C0104 /* VSPickerViewController.m */,
+				6E8E7E8A132A14BD007C0104 /* VSPickerAppDelegate.h */,
+				6E8E7E8B132A14BD007C0104 /* VSPickerAppDelegate.m */,
+				6E8E7E8D132A14BD007C0104 /* MainWindow.xib */,
+				6E8E7E93132A14BE007C0104 /* VSPickerViewController.xib */,
+				6E8E7E82132A14BD007C0104 /* Supporting Files */,
+			);
+			path = VSPicker;
+			sourceTree = "<group>";
+		};
+		6E8E7E82132A14BD007C0104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E7E83132A14BD007C0104 /* VSPicker-Info.plist */,
+				6E8E7E84132A14BD007C0104 /* InfoPlist.strings */,
+				6E8E7E87132A14BD007C0104 /* VSPicker-Prefix.pch */,
+				6E8E7E88132A14BD007C0104 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E8E7E76132A14BD007C0104 /* VSPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8E7E98132A14BE007C0104 /* Build configuration list for PBXNativeTarget "VSPicker" */;
+			buildPhases = (
+				6E8E7E73132A14BD007C0104 /* Sources */,
+				6E8E7E74132A14BD007C0104 /* Frameworks */,
+				6E8E7E75132A14BD007C0104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSPicker;
+			productName = VSPicker;
+			productReference = 6E8E7E77132A14BD007C0104 /* VSPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E8E7E6E132A14BD007C0104 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6E8E7E71132A14BD007C0104 /* Build configuration list for PBXProject "VSPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E8E7E6C132A14BD007C0104;
+			productRefGroup = 6E8E7E78132A14BD007C0104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E8E7E76132A14BD007C0104 /* VSPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E8E7E75132A14BD007C0104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8E7E86132A14BD007C0104 /* InfoPlist.strings in Resources */,
+				6E8E7E8F132A14BE007C0104 /* MainWindow.xib in Resources */,
+				6E8E7E95132A14BE007C0104 /* VSPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E8E7E73132A14BD007C0104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8E7E89132A14BD007C0104 /* main.m in Sources */,
+				6E8E7E8C132A14BD007C0104 /* VSPickerAppDelegate.m in Sources */,
+				6E8E7E92132A14BE007C0104 /* VSPickerViewController.m in Sources */,
+				6EA80037132A1A18002BF036 /* VSPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E8E7E84132A14BD007C0104 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8E7E85132A14BD007C0104 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E8E7E8D132A14BD007C0104 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8E7E8E132A14BE007C0104 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6E8E7E93132A14BE007C0104 /* VSPickerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8E7E94132A14BE007C0104 /* en */,
+			);
+			name = VSPickerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E8E7E96132A14BE007C0104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E8E7E97132A14BE007C0104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6E8E7E99132A14BE007C0104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSPicker/VSPicker-Prefix.pch";
+				INFOPLIST_FILE = "VSPicker/VSPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E8E7E9A132A14BE007C0104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSPicker/VSPicker-Prefix.pch";
+				INFOPLIST_FILE = "VSPicker/VSPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E8E7E71132A14BD007C0104 /* Build configuration list for PBXProject "VSPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8E7E96132A14BE007C0104 /* Debug */,
+				6E8E7E97132A14BE007C0104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8E7E98132A14BE007C0104 /* Build configuration list for PBXNativeTarget "VSPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8E7E99132A14BE007C0104 /* Debug */,
+				6E8E7E9A132A14BE007C0104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E8E7E6E132A14BD007C0104 /* Project object */;
+}
